@@ -1,0 +1,74 @@
+body {
+	background-color:#ffffff;
+	font-family: 'Roboto', sans-serif;
+	color:#000000;
+}
+
+a {
+	color: #1899de;
+	text-decoration: underline;
+}
+
+ul {
+	font-size: 16px;
+}
+
+#green {
+	background-color: #556b2f;
+	color:white;
+	padding:12px;
+	text-align: center;
+}
+
+#topbar {
+	text-align: center;
+	background-color: #0077ad;
+	display:table  ;
+	color: #ffffff;
+	width: 100%;
+	padding: 1px;
+	font-size: 24px;
+}
+
+.list {
+	border: 1px solid #000000;
+}
+
+#books, #songs, #foods, #movies {
+	padding: 12px;
+	color: white;
+	display: block;
+	padding-left: 12px;
+	font-size: 24px
+}
+
+#books {
+	background-color: #18de22;
+}
+
+#songs {
+	background-color: #de1818;
+}
+
+#foods {
+	background-color: #8818de;
+}
+
+#movies {
+	background-color: #ded418;
+}
+
+/* Flexbox Stuff */
+
+
+
+#list-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.list {
+	flex-grow: 1;
+	width:49%;
+}
